@@ -116,6 +116,9 @@ az storage account update --name <anytestaccount> --resource-group <rg> --allow-
 
 > This is a deliberate shortcut, flagged as such in the exercise. Real inventory APIs sit behind API-key or managed-identity auth — both of which the Foundry OpenAPI tool supports.
 
+1. **Storage account exemption (recommended):** Ask your governance team for a time-limited policy exemption from the blocking Deny assignment on the workshop storage account only.
+2. **Resource group exemption:** Alternatively, request the same time-limited exemption on the sandbox RG; this covers all storage accounts in that RG, so use a dedicated workshop RG.
+
 ---
 
 ## ✅ Network access
