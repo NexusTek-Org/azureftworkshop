@@ -1,3 +1,5 @@
+![🚀 Azure Frontier Transformation Workshop](/assets/social-image.png)
+
 # 🚀 Azure Frontier Transformation Workshop
 
 This repository supports the **Azure Frontier Transformation Workshop**. It holds the **hands-on labs** — written so you can work through them at your own pace, on your own subscription, without an instructor.
