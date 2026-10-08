@@ -45,6 +45,7 @@ You need these on the subscription, or on the resource group you will work in:
 |---|---|---|
 | **Contributor** | Resource group | Create the project, models, storage and search |
 | **User Access Administrator** | Resource group | **Mandatory** — you create four role assignments in Lab 1 |
+| **Foundry User** *(formerly Azure AI User)* | Foundry resource (parent of the project) | **Mandatory for Foundry use** — build and test agents, invoke deployed models and access project data |
 | **Storage Blob Data Contributor** | Storage account | **Mandatory to upload the catalogue** — you grant this to yourself in Lab 1 Exercise 3 |
 
 > ⚠️ **User Access Administrator is not optional.** Grounding does not work without four role assignments — three between services, one for yourself. If you cannot create role assignments you cannot finish Lab 1, and the failure appears **late**, after you have spent twenty minutes building things that look fine.
