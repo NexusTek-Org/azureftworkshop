@@ -43,6 +43,7 @@ You need these on the subscription, or on the resource group you will work in:
 
 | Role | Scope | Why |
 |---|---|---|
+| **Owner** | Resource group | Carlos said so |
 | **Contributor** | Resource group | Create the project, models, storage and search |
 | **User Access Administrator** | Resource group | **Mandatory** — you create four role assignments in Lab 1 |
 | **Storage Blob Data Contributor** | Storage account | **Mandatory to upload the catalogue** — you grant this to yourself in Lab 1 Exercise 3 |
